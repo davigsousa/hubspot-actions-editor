@@ -4,6 +4,8 @@ const theme = useTheme();
 
 <template>
   <div :class="theme">
-    <slot />
+    <div class="text-black dark:text-white">
+      <slot />
+    </div>
   </div>
 </template>
