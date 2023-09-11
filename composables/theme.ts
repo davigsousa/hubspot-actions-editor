@@ -1,3 +1,3 @@
 export function useTheme() {
-  return useState('app-theme', () => 'light')
+  return useState<'light' | 'dark'>('app-theme', () => 'light')
 }
