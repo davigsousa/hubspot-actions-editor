@@ -8,6 +8,6 @@ const toggleTheme = () => {
 
 <template>
   <header>
-    <button @click="toggleTheme">Toggle Dark</button>
+    <button @click="toggleTheme">Toggle theme</button>
   </header>
 </template>
